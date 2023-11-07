@@ -1,6 +1,6 @@
 # Introduction
 
-This project is simply amazing
+This project is simply amazing, you can do so many things with it. And it is sooooooooooo secure!!
 
 ## Available Scripts
 

@@ -13,6 +13,8 @@ import { withRouter } from "react-router-dom";
 import classnames from "classnames";
 
 // styles
+// I do not think I like them
+// TBD CHANGE THEM!!
 import useStyles from "./styles";
 
 // logo
@@ -57,11 +59,11 @@ function Login(props) {
           {activeTabId === 0 && (
             <React.Fragment>
               <Typography variant="h1" className={classes.greeting}>
-                Good Morning, User
+                Good Morning, Awesome User!!
               </Typography>
               <Button size="large" className={classes.googleButton}>
                 <img src={google} alt="google" className={classes.googleIcon} />
-                &nbsp;Sign in with Google
+                &nbsp;Sign in with Google (Super Secure!!)
               </Button>
               <div className={classes.formDividerContainer}>
                 <div className={classes.formDivider} />
@@ -70,7 +72,7 @@ function Login(props) {
               </div>
               <Fade in={error}>
                 <Typography color="secondary" className={classes.errorMessage}>
-                  Something is wrong with your login or password :(
+                  Something is wrong with your login or password :( hahahaha
                 </Typography>
               </Fade>
               <TextField
@@ -84,7 +86,7 @@ function Login(props) {
                 value={loginValue}
                 onChange={e => setLoginValue(e.target.value)}
                 margin="normal"
-                placeholder="Email Adress"
+                placeholder="Email Address"
                 type="email"
                 fullWidth
               />
